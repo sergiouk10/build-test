@@ -15,7 +15,7 @@ var showAccordionOne = function(){
   }else{
     btnAccordionOne.className = "btn-style";
   }   
-}
+} 
 //FIRST ACCORDION
 
 //SECOND ACCORDION
