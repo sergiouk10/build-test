@@ -1,0 +1,188 @@
+/*STYLE*/
+body {
+  margin: 0;
+  background-color: #111;
+}
+#main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+#main .wrapper-accordion {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 15px;
+}
+#main .wrapper-accordion #box-accordion {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+#main .wrapper-accordion #box-accordion .accordion {
+  margin-bottom: 4px;
+  position: relative;
+}
+#main .wrapper-accordion #box-accordion .accordion .btn-style {
+  background-color: #9e38b0;
+  color: #fff;
+  padding: 20px 15px;
+  border-bottom: 4px solid #6f277d;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  cursor: pointer;
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+.btnAccordionColor {
+  background-color: #6844b7;
+  color: #fff;
+  padding: 20px 15px;
+  border-bottom: 4px solid #4c3185;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  cursor: pointer;
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+#btn-accordion-1 .btn-style::after {
+  content: "›";
+  font-size: 2.0em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: block;
+  position: absolute;
+  top: 0.2em;
+  right: 0.4em;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+}
+#btn-accordion-1 .btnAccordionColor::after {
+  content: "‹";
+  font-size: 2.0em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: block;
+  position: absolute;
+  top: 0.2em;
+  right: 0.4em;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+}
+#btn-accordion-2 .btn-style::after {
+  content: "›";
+  font-size: 2.0em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: block;
+  position: absolute;
+  top: 0.2em;
+  right: 0.4em;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+}
+#btn-accordion-2 .btnAccordionColor::after {
+  content: "‹";
+  font-size: 2.0em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: block;
+  position: absolute;
+  top: 0.2em;
+  right: 0.4em;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+}
+#btn-accordion-3 .btn-style::after {
+  content: "›";
+  font-size: 2.0em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: block;
+  position: absolute;
+  top: 0.2em;
+  right: 0.4em;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+}
+#btn-accordion-3 .btnAccordionColor::after {
+  content: "‹";
+  font-size: 2.0em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: block;
+  position: absolute;
+  top: 0.2em;
+  right: 0.4em;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+}
+#main .wrapper-accordion #box-accordion .accordion .svg-inline--fa.fa-angle-down.fa-w-10.fa-lg {
+  float: right;
+}
+#main .wrapper-accordion #box-accordion .accordion .svg-inline--fa.fa-angle-up.fa-w-10.fa-lg {
+  float: right;
+}
+#main .wrapper-accordion #box-accordion .accordion p {
+  color: #5c5c5c;
+  padding: 25px 20px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  border-right: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
+  border-left: 2px solid #ebebeb;
+}
+.textOne {
+  display: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+.textTwo {
+  display: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+.textThree {
+  display: none;
+  transition: 0.5s !important;
+  -webkit-transition: 0.5s !important;
+  -moz-transition: 0.5s !important;
+}
+.openAccordion {
+  display: block !important;
+}
+.iconHide {
+  display: none;
+}
+.iconShow{
+  display: block;
+}
