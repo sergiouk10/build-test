@@ -45,7 +45,7 @@ body {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
 }
-.btnAccordionColor {
+#main .wrapper-accordion #box-accordion .accordion .btnAccordionColor {
   background-color: #6844b7;
   color: #fff;
   padding: 20px 15px;
@@ -66,7 +66,7 @@ body {
   -moz-transition: 0.5s;
   outline: none;
 }
-#btn-accordion-1 .btn-style::after {
+#main .wrapper-accordion #box-accordion .accordion .btn-style::after {
   content: "›";
   font-size: 2.0em;
   -webkit-transform: rotate(90deg);
@@ -79,7 +79,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-style: normal;
 }
-#btn-accordion-1 .btnAccordionColor::after {
+#main .wrapper-accordion #box-accordion .accordion .btnAccordionColor::after {
   content: "‹";
   font-size: 2.0em;
   -webkit-transform: rotate(90deg);
@@ -91,64 +91,6 @@ body {
   color: #fff;
   font-family: 'Quicksand', sans-serif;
   font-style: normal;
-}
-#btn-accordion-2 .btn-style::after {
-  content: "›";
-  font-size: 2.0em;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  display: block;
-  position: absolute;
-  top: 0.2em;
-  right: 0.4em;
-  color: #fff;
-  font-family: 'Quicksand', sans-serif;
-  font-style: normal;
-}
-#btn-accordion-2 .btnAccordionColor::after {
-  content: "‹";
-  font-size: 2.0em;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  display: block;
-  position: absolute;
-  top: 0.2em;
-  right: 0.4em;
-  color: #fff;
-  font-family: 'Quicksand', sans-serif;
-  font-style: normal;
-}
-#btn-accordion-3 .btn-style::after {
-  content: "›";
-  font-size: 2.0em;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  display: block;
-  position: absolute;
-  top: 0.2em;
-  right: 0.4em;
-  color: #fff;
-  font-family: 'Quicksand', sans-serif;
-  font-style: normal;
-}
-#btn-accordion-3 .btnAccordionColor::after {
-  content: "‹";
-  font-size: 2.0em;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-  display: block;
-  position: absolute;
-  top: 0.2em;
-  right: 0.4em;
-  color: #fff;
-  font-family: 'Quicksand', sans-serif;
-  font-style: normal;
-}
-#main .wrapper-accordion #box-accordion .accordion .svg-inline--fa.fa-angle-down.fa-w-10.fa-lg {
-  float: right;
-}
-#main .wrapper-accordion #box-accordion .accordion .svg-inline--fa.fa-angle-up.fa-w-10.fa-lg {
-  float: right;
 }
 #main .wrapper-accordion #box-accordion .accordion p {
   color: #5c5c5c;
