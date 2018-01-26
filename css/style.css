@@ -160,30 +160,13 @@ body {
   border-bottom: 2px solid #ebebeb;
   border-left: 2px solid #ebebeb;
 }
-.textOne {
+.textHide {
   display: none;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
 }
-.textTwo {
-  display: none;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-}
-.textThree {
-  display: none;
-  transition: 0.5s !important;
-  -webkit-transition: 0.5s !important;
-  -moz-transition: 0.5s !important;
-}
-.openAccordion {
+.textShow {
   display: block !important;
 }
-.iconHide {
-  display: none;
-}
-.iconShow{
-  display: block;
-}
+/*END STYLE*/

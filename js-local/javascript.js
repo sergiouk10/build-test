@@ -3,10 +3,10 @@
 //FIRST ACCORDION
 var showAccordionOne = function(){
   var textIdOne = document.getElementById('textIdOne');
-  if(textIdOne.className == "textOne"){
-    textIdOne.className = "textOne openAccordion";
+  if(textIdOne.className == "textHide"){
+    textIdOne.className = "textHide textShow";
   }else{
-    textIdOne.className = "textOne";
+    textIdOne.className = "textHide";
   }
 
   var btnAccordionOne = document.getElementById('btnAccordionOne');
@@ -21,10 +21,10 @@ var showAccordionOne = function(){
 //SECOND ACCORDION
 var showAccordionTwo = function(){
   var textIdTwo = document.getElementById('textIdTwo');
-  if(textIdTwo.className == "textTwo"){
-    textIdTwo.className = "textTwo openAccordion";
+  if(textIdTwo.className == "textHide"){
+    textIdTwo.className = "textHide textShow";
   }else{
-    textIdTwo.className = "textTwo";
+    textIdTwo.className = "textHide";
   }
 
   var btnAccordionTwo = document.getElementById('btnAccordionTwo');
@@ -39,10 +39,10 @@ var showAccordionTwo = function(){
 //THIRD ACCORDION
 var showAccordionThree = function(){
   var textIdThree = document.getElementById('textIdThree');
-  if(textIdThree.className == "textThree"){
-    textIdThree.className = "textThree openAccordion";
+  if(textIdThree.className == "textHide"){
+    textIdThree.className = "textHide textShow";
   }else{
-    textIdThree.className = "textThree";
+    textIdThree.className = "textHide";
   }
 
   var btnAccordionThree = document.getElementById('btnAccordionThree');
